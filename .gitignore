@@ -1,0 +1,11 @@
+# bağımlılıklar
+node_modules
+
+# derleme çıktısı
+dist
+
+# ortam değişkenleri — asla git'e girmez
+.env
+
+# macOS
+.DS_Store
