@@ -1,6 +1,6 @@
 import express from "express";
 
-const PORT = "3001";
+const PORT: number = "3001";
 const app = express();
 
 console.log("KURAL YAZILIYOR");
