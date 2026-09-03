@@ -1,12 +1,11 @@
 import express from "express";
 
-const PORT: number = 3001;
+const PORT = 3001;
 const app = express();
 
-console.log("KURAL YAZILIYOR");
+app.disable("x-powered-by");
 
 app.get("/", (req, res) => {
-  console.log("De GELDİ");
   res.send("Bubble Street ayakta");
 });
 
